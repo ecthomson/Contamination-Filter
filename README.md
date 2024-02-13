@@ -1,12 +1,15 @@
-Battch Cross-Contamination Detector
-This Bash script, developed by Emma Thomson, identifies identical viral reads across samples from the same sequencing run to detect potential cross-contamination. It processes .sam files, extracting and analyzing mapped sequences to identify commonalities that indicate contamination.
+Batch Cross-Contamination Detector
+Emma Thomson
+MRC-University of Glasgow Centre for Virus Research
+February 2024
+This Bash script identifies identical viral reads across samples from the same sequencing run to detect potential cross-contamination. It processes .sam files, extracting and analyzing mapped sequences to identify commonalities that indicate contamination.
 
 Features
 Processes multiple .sam files based on virus names and accession numbers.
 Extracts mapped sequences and converts them to fasta format.
 Identifies unique and non-unique reads across samples.
 Generates detailed reports, including the percentage of unique reads.
-Prerequisites
+Prerequisites/dependencies
 Unix-like environment (Linux, macOS)
 AWK for text processing
 R and specific R packages for generating contamination charts
