@@ -1,7 +1,11 @@
 Batch Cross-Contamination Detector
+
 Emma Thomson
+
 MRC-University of Glasgow Centre for Virus Research
+
 February 2024
+
 This Bash script identifies identical viral reads across samples from the same sequencing run to detect potential cross-contamination. It processes .sam files, extracting and analyzing mapped sequences to identify commonalities that indicate contamination.
 
 Features
